@@ -23,7 +23,7 @@ function handleChatButton() {
 
 // Select order number with keycombo (ctrl + q)
 function handleOrderNumber(e) {
-	const infoBlock = document.getElementsByClassName("doneInfoBlock")[0];
+    const infoBlock = document.getElementsByClassName("doneInfoBlock")[0];
 	const orderNumber = infoBlock.getElementsByTagName("a")[0];
   
 	if (e.ctrlKey && e.keyCode === 81) {
