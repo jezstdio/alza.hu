@@ -1,4 +1,7 @@
 // Select order number with keycombo (ctrl + q)
+// If you are like me and can't stand the selection of numbers with the mouse on the final page of the order, this script is for you.
+// After it successfully run, the script automatically opens the order's page where you can check if the order has been processed and can be payed.
+
 function handleOrderNumber(e) {
     const infoBlock = document.getElementsByClassName("doneInfoBlock")[0];
     const orderNumber = infoBlock.getElementsByTagName("a")[0];
