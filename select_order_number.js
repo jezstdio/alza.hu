@@ -12,4 +12,6 @@ function handleOrderNumber(e) {
     }
 }
 
-document.onkeydown = handleOrderNumber;
+document.addEventListener("keydown", e => {
+  try { handleOrderNumber(e) } catch (e) { console.log(e) }
+});
