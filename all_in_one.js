@@ -81,6 +81,14 @@ function setWorkerCode() {
     setTimeout(acceptWorkerCode, 500);
 }
 
+function gj_clearFilter(e) {
+    const clearFilterButton = document.getElementById("clearFilter");
+  
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 75) {
+        clearFilterButton.click();
+    }
+}
+
 // Call functions
 try { handleChatButton() } catch (e) { console.error(e) }
 try { setTabIndex() } catch (e) { console.error(e) }
@@ -88,4 +96,7 @@ try { autoFocusSearch() } catch (e) { console.error(e) }
 //try { setWorkerCode() } catch (e) { console.error(e) }
 
 // Call events
-document.onkeydown = handleOrderNumber;
+document.addEventListener("keydown", e => {
+  try { handleOrderNumber(e) } catch (e) { console.log(e) }
+  try { gj_clearFilter(e) } catch (e) { console.log(e) }
+});
