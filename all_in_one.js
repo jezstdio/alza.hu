@@ -91,7 +91,15 @@ function vatNumberFormat() {
         if (value.length < 9) { input.value = value; return false; }
         if (value.length < 10) { input.value = `${value.slice(0, 8)}-${value.slice(8, 9)}`; return false;}
         if (value.length >= 10) { input.value = `${value.slice(0, 8)}-${value.slice(8, 9)}-${value.slice(9, 11)}`; return false;}
-  }
+    }
+}
+
+function gj_clearFilter(e) {
+    const clearFilterButton = document.getElementById("clearFilter");
+  
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 75) {
+        clearFilterButton.click();
+    }
 }
 
 // Call functions
@@ -102,4 +110,7 @@ try { vatNumberFormat() } catch(e) { console.log(e) };
 //try { setWorkerCode() } catch (e) { console.error(e) }
 
 // Call events
-document.onkeydown = handleOrderNumber;
+document.addEventListener("keydown", e => {
+  try { handleOrderNumber(e) } catch (e) { console.log(e) }
+  try { gj_clearFilter(e) } catch (e) { console.log(e) }
+});
