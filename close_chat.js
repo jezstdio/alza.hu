@@ -14,9 +14,7 @@ function handleChatButton() {
             clearInterval(repeatInterval);
         }
 
-        if (currentRepeat === maxRepeats) {
-            clearInterval(repeatInterval);
-        }
+        if (currentRepeat === maxRepeats) { clearInterval(repeatInterval) }
 
         currentRepeat++;
     }
