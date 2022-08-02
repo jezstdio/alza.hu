@@ -13,6 +13,8 @@ function marginRoulette() {
     const breadcrumbs = document.getElementsByClassName("breadcrumbs")[0];
     const currentCategory = breadcrumbs.getAttribute("data-ccname").split("|");
     const productList = Array.from(document.getElementsByClassName("browsingitem"));
+    const checkboxes = document.querySelectorAll("type=['checkbox']");
+    const radios = document.querySelectorAll("type=['radio']");
     let marginList = []
   
     currentCategory.forEach(category => {
@@ -41,6 +43,8 @@ function marginRoulette() {
     })
     
     moreButton.addEventListener("click", e => setTimeout(marginRoulette, 2000) )
+    checkboxes.forEach(checkbox => checkbox.addEventListener("click", e => setTimeout(marginRoulette, 2000)))
+    radios.forEach(checkbox => radio.addEventListener("click", e => setTimeout(marginRoulette, 2000)))
   }
   
   try { setTimeout(marginRoulette, 2000) } catch(e) { console.log(e) };
