@@ -1,5 +1,4 @@
 // Clear filters under searching when you push CTRL + SHIFT + K
-
 function gj_clearFilter(e) {
   const clearFilterButton = document.getElementById("clearFilter");
   

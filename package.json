@@ -1,0 +1,23 @@
+{
+  "name": "alza.hu",
+  "version": "1.0.0",
+  "description": "Scripts I wrote for alza.hu.",
+  "main": "all_in_one.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jezstdio/alza.hu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jezstdio/alza.hu/issues"
+  },
+  "homepage": "https://github.com/jezstdio/alza.hu#readme",
+  "dependencies": {
+    "minify": "^9.1.0"
+  }
+}
