@@ -43,8 +43,8 @@ function marginRoulette() {
     })
     
     moreButton.addEventListener("click", e => setTimeout(marginRoulette, 2000) )
-    checkboxes.forEach(checkbox => checkbox.addEventListener("click", e => setTimeout(marginRoulette, 2000)))
-    radios.forEach(checkbox => radio.addEventListener("click", e => setTimeout(marginRoulette, 2000)))
+    checkboxes.forEach(checkbox => checkbox.addEventListener("change", e => setTimeout(marginRoulette, 2000)))
+    radios.forEach(checkbox => radio.addEventListener("change", e => setTimeout(marginRoulette, 2000)))
   }
   
   try { setTimeout(marginRoulette, 2000) } catch(e) { console.log(e) };
