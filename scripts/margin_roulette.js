@@ -2,12 +2,11 @@
 function marginRoulette() {
     const moreButton = document.getElementsByClassName('button-more')[0];
     const brands = {
-      'Mobiltelefonok': ['EVOLVEO', 'ASUS', 'Ulefone', 'Realme', 'Oukitel', 'POCO', 'Doogee', 'CAT',  'NOTHING', 'Nokia', 'ONEPLUS', 'Apple Felújított', 'Samsung', 'Motorola', 'Cubot', 'Xiaomi', 'Honor'],
-      'Televíziók': ['Panasonic', 'Philips', 'THOMSON', 'TCL', 'JVC'],
-      'Okosórák (smart watch)': ['WowME', 'CARNEO', 'Samsung', 'Withings', 'HUAWEI', 'IMilab', 'Fitbit'],
-      'Fülhallgatók': ['QCY', 'Baseus', 'ASUS', 'JLAB', 'Haylou', 'Niceboy', 'Soundpeats',  'HiFuture', 'Ausdom', 'HUAWEI', 'Corsair', 'Marshall', 'EDIFIER', 'Razer', 'SKULLCANDY', 'Honor', 'Xiaomi', 'BEATS', 'Sony', 'Sennheiser', 'Anker', 'LG', 'Apple'],
-      'Háztartási gép': ['TROTEC', 'Bosch', 'Hyundai', 'ROHNSON', 'Klarstein', 'HISENSE', 'Ayrton', 'MIDEA', 'Siguro', 'NAVON', 'Comfee', 'Samsung', 'INDESIT', 'Meliconi', 'GUZZANTI', 'BEKO', 'ETA', 'Whirlpool'],
-      'Nyomtatók': ['HP', 'Canon', 'Epson']
+      'Mobiltelefonok': ['Cubot', 'EVOLVEO', 'Ulefone', 'CPA', 'BlackView', 'ASUS', 'Realme', 'Motorola',  'Sony', 'CAT', 'Samsung', 'Huawei', 'POCO', 'Doogee', 'Xiaomi', 'NOTHING', 'ONEPLUS'],
+      'Televíziók': ['TCL', 'Samsung', 'LG'],
+      'Okosórák (smart watch)': ['WowME', 'Amazfit', 'Niceboy', 'HUAWEI', 'Xiaomi'],
+      'Fülhallgatók': ['QCY', 'HiFuture', 'Soundpeats', 'HUAWEI', 'Philips', 'JLAB', 'Haylou',  'Marshall', 'Panasonic', 'WowME', 'Xiaomi', 'MPOW', 'Honor', 'Shanling', 'JBL', 'BEATS', 'SKULLCANDY', 'Creative', 'Sennheiser', 'Sony', 'JABRA', 'NOTHING', 'Samsung', 'Apple'],
+      'Háztartási gép': ['MIDEA', 'Maxxo', 'Klarstein', 'Siguro', 'oneConcept', 'Samsung', 'Rohnson', 'HEINNER', 'Amica', 'GALLET', 'Whirlpool', 'GORENJE', 'NAVON']
     }
   
     const breadcrumbs = document.getElementsByClassName('breadcrumbs')[0];
