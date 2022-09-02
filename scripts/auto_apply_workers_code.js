@@ -20,4 +20,4 @@ function setWorkerCode() {
     setTimeout(acceptWorkerCode, 500);
 }
 
-try { setWorkerCode() } catch (e) { console.error(e) }
+//try { setWorkerCode() } catch (e) { console.error(e) }
