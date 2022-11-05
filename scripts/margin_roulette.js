@@ -2,11 +2,10 @@
 function marginRoulette() {
     const moreButton = document.getElementsByClassName('button-more')[0];
     const brands = {
-      'Mobiltelefonok': ['Cubot', 'EVOLVEO', 'Ulefone', 'CPA', 'BlackView', 'ASUS', 'Realme', 'Motorola',  'Sony', 'CAT', 'Samsung', 'Huawei', 'POCO', 'Doogee', 'Xiaomi', 'NOTHING', 'ONEPLUS'],
-      'Televíziók': ['TCL', 'Samsung', 'LG'],
-      'Okosórák (smart watch)': ['WowME', 'Amazfit', 'Niceboy', 'HUAWEI', 'Xiaomi'],
-      'Fülhallgatók': ['QCY', 'HiFuture', 'Soundpeats', 'HUAWEI', 'Philips', 'JLAB', 'Haylou',  'Marshall', 'Panasonic', 'WowME', 'Xiaomi', 'MPOW', 'Honor', 'Shanling', 'JBL', 'BEATS', 'SKULLCANDY', 'Creative', 'Sennheiser', 'Sony', 'JABRA', 'NOTHING', 'Samsung', 'Apple'],
-      'Háztartási gép': ['MIDEA', 'Maxxo', 'Klarstein', 'Siguro', 'oneConcept', 'Samsung', 'Rohnson', 'HEINNER', 'Amica', 'GALLET', 'Whirlpool', 'GORENJE', 'NAVON']
+      'Mobiltelefonok': ['EVOLVEO', 'Doogee', 'Cubot', 'Honor', 'Motorola', 'iGET', 'Nokia', 'POCO', 'CAT', 'ASUS', 'MYPHONE', 'OPPO', 'Realme', 'ONEPLUS', 'NOTHING', 'Samsung', 'Xiaomi'],
+      'Televíziók': ['HISENSE', 'THOMSON', 'Panasonic', 'LG', 'TCL', 'Samsung'],
+      'Okosórák (smart watch)': ['Lamax', 'ARMODD', 'Amazfit', 'WowME', 'HUAWEI', 'Samsung', 'Garmin', 'Apple'],
+      'Háztartási gép': ['Meliconi', 'Maxxo', 'MIDEA', 'HEINNER', 'Amica', 'LG', 'Bosch', 'Whirlpool', 'Samsung', 'Hyundai', 'CATA', 'INDESIT', 'GORENJE', 'CANDY']
     }
   
     const breadcrumbs = document.getElementsByClassName('breadcrumbs')[0];
