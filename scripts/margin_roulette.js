@@ -45,4 +45,4 @@ function marginRoulette() {
     radios.forEach(checkbox => radio.addEventListener('change', e => setTimeout(marginRoulette, 2000)))
   }
   
-  try { setTimeout(marginRoulette, 2000) } catch(e) { console.log(e) };
+  //try { setTimeout(marginRoulette, 2000) } catch(e) { console.log(e) };
