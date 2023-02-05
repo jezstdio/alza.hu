@@ -8,7 +8,10 @@ function handleOrderNumber(e) {
     if (e.ctrlKey && e.keyCode === 81) {
         search.value = orderNumber.textContent;
         navigator.clipboard.writeText(search.value);
-        orderNumber.click(); // navigate to the order page to check if it's loaded.
+
+        setTimeout(() => {
+          orderNumber.click(); // navigate to the order page to check if it's loaded.
+        }, 250); // We have to delay it, because sometimes didn't work.
     }
 }
 
