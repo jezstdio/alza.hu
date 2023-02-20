@@ -1,4 +1,4 @@
-Alza.hu scriptek
+#Alza.hu scriptek
 Miket is tud?
 - Kikapcsolja automatikusan a chat ablakot. 
 - Kikapcsolja automatikusan a PC konfigurátort
