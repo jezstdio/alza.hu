@@ -8,6 +8,7 @@
 - Automatikusan formázza az adószámot. 
 - Ha +36-al vagy 06-al másolsz be telefonszámot, automatikusan kitörli ezeket az előtagokat. 
 - Rendelés elkészítése után CTRL+Q -val egyből ki tudod másolni a rendelési számot, miközben át is visz az utolsó oldalra ahol láthatod, elkészült-e a rendelés. 
+- A szállítási és fizetési oldalon, a megjelenő ablakokat (mint ahol ki tudod választani melyik Alzaboxba szeretnéd a rendelést szállíttatni) be tudod zárni ESC megnyomásával.
 
 ## Hogyan használd?
 - Telepítsd Google Chrome böngészőben a következő add-ont: [Custom Javascript for Web](https://chrome.google.com/webstore/detail/custom-javascript-for-web/ddbjnfjiigjmcpcpkmhogomapikjbjdk).
